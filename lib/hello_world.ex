@@ -14,6 +14,8 @@ defmodule HelloWorld do
   """
   def hello do
     IO.puts "Waiting for:"; IO.inspect "a"
+    IO.puts "Waiting for:"; IO.inspect "a"
+    num = 10000000
     :world
   end
 end
